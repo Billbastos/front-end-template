@@ -1,0 +1,60 @@
+.slider {
+    margin-top: 130px;
+    font-family: 'OpenSansRegular';
+}
+#carousel-macho {
+    max-height: 600px;
+    overflow: hidden;
+    .carousel-caption {
+        top:150px;
+        left: 33.33%;
+        width: 400px;
+    }
+    .carousel-inner {
+        > .item {
+            max-height: 600px;
+            h1{
+
+            }
+            article {
+                margin: 0;
+                line-height: 25px;
+                font-size: 0.8em;
+                padding: 30px 0;
+
+                p {
+                    padding-bottom: 10px;
+
+                }
+            }
+            button {
+                background-color: rgba(255, 255, 255, .4);
+                color: #fff;
+                letter-spacing: 2px;
+                font-size: 0.6em;
+                border: 1px solid rgba(255, 255, 255, .3);
+                border-radius: 30px;
+                padding: 10px;
+                width: 150px;
+                -webkit-transition: all 0.2s ease-in-out;
+                -moz-transition: all 0.2s ease-in-out;
+                -ms-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+                &:hover {
+                    color: $l-dark-gray;
+                    background-color: #fff;
+                    -webkit-transition: all 0.2s ease-in-out;
+                    -moz-transition: all 0.2s ease-in-out;
+                    -ms-transition: all 0.2s ease-in-out;
+                    -o-transition: all 0.2s ease-in-out;
+                    transition: all 0.2s ease-in-out;
+                }
+            }
+        }
+    }
+    .carousel-control.left, .carousel-control.right {
+      background: none;
+      line-height: 660px;
+    }
+}

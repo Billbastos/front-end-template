@@ -1,0 +1,101 @@
+.works {
+    background-color: $m-gray;
+    width: auto;
+    height: 900px;
+    .header-works {
+        width: 100%;
+        position: relative;
+        float: left;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .number-works {
+        position: absolute;
+        width: 300px;
+        right: 0;
+        top: 0;
+        color: $m-dark-gray;
+        font-size: 0.7em;
+    }
+    .portfolio {
+        width: auto;
+        #pj1 {
+            background-image: url('../img/port-0.jpg');
+            background-size: 100%;
+        }
+        #pj2 {
+            background-image: url('../img/port-1.jpg');
+            background-size: 100%;
+        }
+        #pj3 {
+            background-image: url('../img/port-2.jpg');
+            background-size: 100%;
+        }
+        #pj4 {
+            background-image: url('../img/port-3.jpg');
+        }
+        #pj5 {
+            background-image: url('../img/port-5.jpg');
+            background-size: 100%;
+        }
+        #pj6 {
+            background-image: url('../img/port-4.jpg');
+            background-size: 100%;
+        }
+        .project {
+            position: relative;
+            float: left;
+            width: 33.33%;
+            min-height: 400px;
+            overflow: hidden;
+            .inner-pj {
+                top: 400px;
+                position: absolute;
+                display: flex;
+                align-items: center;
+                min-height: 400px;
+                height: 400px;
+                text-align: center;
+                color: #fff;
+                background-color: #000;
+                opacity: 0;
+                font-size: 0.9em;
+                padding: 10px 40px;
+                -webkit-transition: all 0.4s ease-in-out;
+                -moz-transition: all 0.4s ease-in-out;
+                -ms-transition: all 0.4s ease-in-out;
+                -o-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+        .project:hover {
+            .inner-pj {
+                top: 0;
+                opacity: 0.8;
+                -webkit-transition: all 0.4s ease-in-out;
+                -moz-transition: all 0.4s ease-in-out;
+                -ms-transition: all 0.4s ease-in-out;
+                -o-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+    }
+}
+.pj-cotent {
+    margin: 0;
+    font-size: 1em;
+    h3 {
+        letter-spacing: 3px;
+        font-family: 'OpenSansBold';
+        padding-bottom: 15px;
+    }
+    p {
+        line-height: 20px;
+        font-family: 'OpenSansLight';
+        padding: 0 35px;
+    }
+    i {
+        padding-top: 10px;
+    }
+}

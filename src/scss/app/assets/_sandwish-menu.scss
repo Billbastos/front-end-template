@@ -1,0 +1,63 @@
+.sandwish-menu {
+    display: none;
+    position: relative;
+    float: right;
+    right: 0;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    font-family: 'OpenSansRegular';
+    color: $m-dark-gray;
+    line-height: 120px;
+    margin-right: 60px;
+    margin-top: 20px;
+
+    &>a {
+        margin-left: 60px;
+        margin-bottom: 28px;
+    }
+
+    ul {
+        display: none;
+        position: fixed;
+        top: 83px;
+        right: 60px;
+        width: 180px;
+        list-style-type: none;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 0 0 4px 4px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+
+        li {
+            text-align: right;
+            padding: 0 25px;
+            height: 30px;
+            line-height: 30px;
+            color: $l-red;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                background-color: $l-red;
+                -webkit-transition: all 0.2s ease-in-out;
+                -moz-transition: all 0.2s ease-in-out;
+                -ms-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+                font-weight: 500;
+                a {
+                  color: #fff;
+                }
+                &:last-child {
+                  border-radius: 0 0 4px 4px;
+                }
+            }
+        }
+    }
+}

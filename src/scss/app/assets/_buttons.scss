@@ -1,0 +1,27 @@
+.m-btn {
+    padding: 12px 25px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 24px;
+}
+
+/* red macho button */
+.m-btn-red {
+    border: 1px solid $l-red;
+    color: $l-red;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        color: #fff;
+        background-color: $l-red;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        font-weight: 500;
+    }
+}

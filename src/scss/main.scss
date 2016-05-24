@@ -1,0 +1,43 @@
+/* vendor css */
+@import "vendor/animation/animate";
+@import "vendor/font-awesome/font-awesome";
+@import "vendor/jquery-ui";
+@import "vendor/reset";
+
+@import "app/variables";
+/* app sections */
+@import "app/master-header";
+@import "app/product";
+@import "app/works";
+@import "app/team";
+@import "app/about";
+@import "app/footer";
+
+/* importing assets */
+@import "app/assets/slider";
+@import "app/assets/nav-bar";
+@import "app/assets/buttons";
+@import "app/assets/fonts";
+@import "app/assets/popover";
+@import "app/assets/sandwish-menu";
+
+/* responsive classes */
+@import "app/responsivity";
+
+html {
+    margin: 0 auto;
+		font-family: 'OpenSansRegular';
+		overflow-x: hidden;
+}
+body {
+    margin: 0 auto;
+}
+section {
+    min-height: 500px;
+}
+h1 {
+	font-size: 1.8em;
+}
+h2 {
+	font-size: 1.4em;
+}

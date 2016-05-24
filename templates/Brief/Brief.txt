@@ -1,0 +1,22 @@
+Project Description:
+
+This exercise is to develop the home screen of a fictitious agency website. The site has a number of pre-determined features based on each menu section (eg. Top-slider, Product and team).
+
+The site is intended to be broadly appealing and easy to use, not directed specifically towards a tech savvy user demographic.
+While keeping in mind the sites overall structure and navigation. If you need to code and additional features you think are neccesary, go for it.
+
+Features:
+Elements and features on the home screen should include, but are not limited to:
+
+	⁃	jQuery Carousel
+	⁃	CSS effects
+	⁃	Javascript
+	⁃	Responsiveness
+
+Your timeframe is 3 days; it’s up to you to figure out how to structure the process! When you are finished please send back your working files to me.
+
+What we are looking for:
+
+	⁃	HTML5, CSS / Sass and Javascript / Jquery Skills!
+	⁃	Use of any responsive framework, such as Bootstrap, Foundation or whatever you are comfortable with.
+	⁃	Ability to take mock-ups and make it as pixel perfect as possible.

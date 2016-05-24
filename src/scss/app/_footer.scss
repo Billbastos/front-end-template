@@ -1,0 +1,137 @@
+footer {
+    position: relative;
+    height: 190px;
+    letter-spacing: 1px;
+    font-family: 'OpenSansLight';
+    color: #fff;
+    line-height: 190px;
+    margin: 0;
+    padding: 0 90px;
+    background-color: $s-dark-gray;
+    .logo {
+        letter-spacing: 2px;
+        font-size: 1em;
+        height: 80px;
+        line-height: 80px;
+        padding-top: 20px;
+    }
+    .divisor {
+        height: 10px;
+        line-height: 10px;
+        hr {
+            border: 0;
+            height: 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    }
+    div {
+        height: 80px;
+        line-height: 60px;
+        position: relative;
+        .social {
+            float: right;
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                li {
+                    display: inline;
+                    //padding:5px 12px;
+                    height: 30px;
+                    line-height: 30px;
+                    a {
+                        color: $m-dark-gray;
+                        text-decoration: none;
+                        padding:5px 0 5px 12px;
+                        -webkit-transition: all 0.2s ease-in-out;
+                        -moz-transition: all 0.2s ease-in-out;
+                        -ms-transition: all 0.2s ease-in-out;
+                        -o-transition: all 0.2s ease-in-out;
+                        transition: all 0.2s ease-in-out;
+                        &:hover {
+                            color: $l-red;
+                            -webkit-transition: all 0.2s ease-in-out;
+                            -moz-transition: all 0.2s ease-in-out;
+                            -ms-transition: all 0.2s ease-in-out;
+                            -o-transition: all 0.2s ease-in-out;
+                            transition: all 0.2s ease-in-out;
+                        }
+                        &.contact {
+                            border: 1px solid $l-red;
+                            color: $l-red;
+                            border-radius: 20px;
+                            -webkit-transition: all 0.2s ease-in-out;
+                            -moz-transition: all 0.2s ease-in-out;
+                            -ms-transition: all 0.2s ease-in-out;
+                            -o-transition: all 0.2s ease-in-out;
+                            transition: all 0.2s ease-in-out;
+                            &:hover {
+                                color: #fff;
+                                background-color: $l-red;
+                                -webkit-transition: all 0.2s ease-in-out;
+                                -moz-transition: all 0.2s ease-in-out;
+                                -ms-transition: all 0.2s ease-in-out;
+                                -o-transition: all 0.2s ease-in-out;
+                                transition: all 0.2s ease-in-out;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .menu {
+            font-size: 0.8em;
+            float: left;
+            ul {
+                list-style-type: none;
+                margin: 0 0 0 -12px;
+                padding: 0;
+                li {
+                    display: inline;
+                    //padding:5px 12px;
+                    height: 30px;
+                    line-height: 25px;
+                    a {
+                        color: $m-dark-gray;
+                        text-decoration: none;
+                        padding:5px 12px;
+                        -webkit-transition: all 0.2s ease-in-out;
+                        -moz-transition: all 0.2s ease-in-out;
+                        -ms-transition: all 0.2s ease-in-out;
+                        -o-transition: all 0.2s ease-in-out;
+                        transition: all 0.2s ease-in-out;
+                        &:hover {
+                            color: #fff;
+                            -webkit-transition: all 0.2s ease-in-out;
+                            -moz-transition: all 0.2s ease-in-out;
+                            -ms-transition: all 0.2s ease-in-out;
+                            -o-transition: all 0.2s ease-in-out;
+                            transition: all 0.2s ease-in-out;
+                        }
+                        &.contact {
+                            border: 1px solid $l-red;
+                            color: $l-red;
+                            border-radius: 20px;
+                            -webkit-transition: all 0.2s ease-in-out;
+                            -moz-transition: all 0.2s ease-in-out;
+                            -ms-transition: all 0.2s ease-in-out;
+                            -o-transition: all 0.2s ease-in-out;
+                            transition: all 0.2s ease-in-out;
+                            &:hover {
+                                color: #fff;
+                                background-color: $l-red;
+                                -webkit-transition: all 0.2s ease-in-out;
+                                -moz-transition: all 0.2s ease-in-out;
+                                -ms-transition: all 0.2s ease-in-out;
+                                -o-transition: all 0.2s ease-in-out;
+                                transition: all 0.2s ease-in-out;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

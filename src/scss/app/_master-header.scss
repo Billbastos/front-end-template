@@ -1,0 +1,30 @@
+.master-header {
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    min-height: 130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px 15px 0 15px;
+    z-index: 100;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    .logo {
+        float: left;
+        font-family: 'OpenSansRegular';
+        letter-spacing: 1px;
+        font-size: 2em;
+        color: $s-dark-gray;
+        line-height: 120px;
+        margin-left: 60px;
+    }
+    a {
+        text-decoration: none;
+        color: $s-dark-gray;
+    }
+}

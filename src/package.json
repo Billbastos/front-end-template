@@ -1,0 +1,44 @@
+{
+  "name": "the-company",
+  "version": "1.0.0",
+  "description": "The-company Front-end test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gui Bastos",
+  "license": "ISC",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "tasks"
+  ],
+  "keywords": [
+    "gruntplugin",
+    "css",
+    "sass",
+    "scss",
+    "style",
+    "compile",
+    "preprocess",
+    "compile",
+    "libsass"
+  ],
+  "dependencies": {
+    "each-async": "^1.0.0",
+    "node-sass": "beta",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  }
+}

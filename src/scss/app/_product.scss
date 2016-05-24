@@ -1,0 +1,67 @@
+.product {
+    position: relative;
+    height: 620px;
+    div.download {
+        z-index: 10;
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 200px;
+        height: 420px;
+        width: 40%;
+        float: left;
+        h1{
+          padding-bottom: 40px;
+        }
+        article {
+          line-height: 25px;
+          font-size: 0.8em;
+          color:$m-dark-gray;
+          padding-bottom: 30px;
+          p {
+            padding-bottom: 10px;
+          }
+        }
+        button {
+          color:#fff;
+          letter-spacing: 2px;
+          font-size: 0.6em;
+          background-color: $l-red;
+          border: 1px solid $l-red;
+          border-radius: 30px;
+          padding: 15px;
+          width: 200px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          &:hover{
+            color:$l-red;
+            background-color: #fff;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+          }
+        }
+
+    }
+    div.bg-download {
+      position:absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left:90%;
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      img {
+        max-height: 540px;
+      }
+    }
+}

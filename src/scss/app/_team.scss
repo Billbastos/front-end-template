@@ -1,0 +1,96 @@
+.team {
+    background-color: #fff;
+    width: auto;
+    height: 380px;
+    min-height: 380px !important;
+    .header-team {
+        width: 100%;
+        position: relative;
+        float: left;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .team-work {
+        margin: 0;
+        font-size: 1em;
+        color: #fff;
+        position: relative;
+        align-items: center;
+        #w1 {
+            background-image: url('../img/wk-0.jpg');
+        }
+        #w2 {
+            background-image: url('../img/wk-1.jpg');
+        }
+        #w3 {
+            background-image: url('../img/wk-2.jpg');
+        }
+        #w4 {
+            background-image: url('../img/wk-3.jpg');
+        }
+        #w5 {
+            background-image: url('../img/wk-4.jpg');
+        }
+        #w6 {
+            background-image: url('../img/wk-5.jpg');
+        }
+        .worker {
+            float: left;
+            width: 20%;
+            height: 280px;
+            position: relative;
+            overflow: hidden;
+            .inner-wk {
+                top: 280px;
+                position: absolute;
+                display: flex;
+                align-items: flex-end;
+                height: 280px;
+                width: 100%;
+                text-align: left;
+                color: #fff;
+                background-color: #000;
+                opacity: 0;
+                font-size: 0.9em;
+                padding: 10px 20px;
+                -webkit-transition: all 0.4s ease-in-out;
+                -moz-transition: all 0.4s ease-in-out;
+                -ms-transition: all 0.4s ease-in-out;
+                -o-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+        .worker:hover {
+            .inner-wk {
+                top: 0;
+                opacity: 0.65;
+                -webkit-transition: all 0.4s ease-in-out;
+                -moz-transition: all 0.4s ease-in-out;
+                -ms-transition: all 0.4s ease-in-out;
+                -o-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+            }
+        }
+    }
+    .wk-cotent {
+        margin: 0;
+        font-size: 1em;
+        h3 {
+            letter-spacing: 3px;
+            font-family: 'OpenSansRegular';
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+        p {
+            line-height: 20px;
+            font-family: 'OpenSansLight';
+            font-size: 0.9em;
+            padding-left: 5px;
+            padding-bottom: 15px;
+        }
+        i {
+            padding-top: 10px;
+        }
+    }
+}

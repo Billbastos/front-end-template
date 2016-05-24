@@ -1,0 +1,55 @@
+@media only screen
+and (min-width : 800px)
+and (max-width : 1024px){
+    .m-btn-red {
+        padding: 0 10px;
+    }
+    .master-header {
+        min-height: 50px;
+        .logo {
+            line-height: 50px;
+            margin:10px;
+        }
+        a {
+            float: right;
+        }
+        .nav-bar {
+            display: none;
+        }
+        .sandwish-menu {
+            display: flex;
+        }
+    }
+    .slider {
+        margin-top: 80px;
+    }
+    .product {
+        height: auto;
+        div.download {
+            height: auto;
+            left: 0;
+            top: 20px;
+            padding: 50px;
+            width: 100%;
+            transform: none;
+            text-align: center;
+        }
+        div.bg-download {
+            display: none;
+        }
+    }
+    .arrow_box {
+        top: 20px;
+        left: 20%;
+        width: 60%;
+    }
+    .arrow_box:after {
+        border:none;
+        margin: 0;
+    }
+    .arrow_box:before {
+        border:none;
+        margin: 0;
+    }
+
+}
